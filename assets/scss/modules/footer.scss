@@ -1,0 +1,27 @@
+@import './variables.scss';
+
+.footer{
+    padding-top: 51px;
+    padding-bottom: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__ul{
+        width: 15%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__mail{
+        margin-top: 26px;
+        font-family: $fuenteMont;
+        font-size: 18px;
+        font-weight: 400;
+    } 
+
+}

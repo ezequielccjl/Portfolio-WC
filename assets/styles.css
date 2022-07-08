@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap");
+.footer {
+  padding-top: 51px;
+  padding-bottom: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__ul {
+  width: 15%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__mail {
+  margin-top: 26px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.skills {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  padding-bottom: 60px;
+}
+.skills__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 36px;
+  color: #fff;
+  text-align: center;
+}
+.skills__cardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  place-items: center;
+}
+
+.card_skill {
+  background-color: #fff;
+  width: 90%;
+  padding-top: 24px;
+  border-radius: 5px;
+  height: 295px;
+}
+.card_skill__title {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+}
+.card_skill__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.card_skill__item__cont {
+  display: flex;
+  flex-direction: row;
+  margin-left: 24px;
+}
+.card_skill__item__title {
+  font-family: "Zilla Slab", sans;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 8px;
+}
+.card_skill__item__dots {
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-end;
+  margin-right: 40px;
+}
+
+.dot {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: #142850;
+  margin-right: 8px;
+}
+.dot--gray {
+  background-color: rgb(170, 170, 170);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-top: 1em;
+  margin-bottom: 105px;
+}
+.navbar__logo__nombre {
+  font-weight: 900;
+}
+.navbar__logo__apellido {
+  font-weight: 300;
+}
+.navbar__logo__punto {
+  font-weight: 900;
+  color: #FF6464;
+}
+.navbar__info {
+  font-family: "Zilla Slab", sans;
+  font-size: 20px;
+}
+.navbar__info__link {
+  margin-right: 2em;
+}
+
+.ul_nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+}
+.ul_nav li a {
+  color: inherit;
+  /* blue colors for links too */
+  text-decoration: inherit;
+  /* no underline */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.mainContenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 172px;
+  padding-right: 172px;
+}
+.main__imgcont {
+  width: 415px;
+  height: 280px;
+}
+.main__imgcont__img {
+  width: 415px;
+  height: 280px;
+}
+
+.main__info {
+  width: 50%;
+}
+.main__info__title {
+  font-weight: 800;
+  font-size: 44px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 40px;
+}
+.main__info__desc {
+  font-family: "Zilla Slab", sans;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+.main__info__button {
+  font-family: "Zilla Slab", sans;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: transparent;
+  border: 1px black solid;
+  color: inherit;
+  /* blue colors for links too */
+  text-decoration: inherit;
+  /* no underline */
+}/*# sourceMappingURL=styles.css.map */
